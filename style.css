@@ -20,28 +20,6 @@ body::-webkit-scrollbar {
     background-attachment: fixed;
     padding-top: 1.2rem;
 }
-
-#header {
-    height: 90px;
-    padding: 25px 0;
-    position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
-    transition: all 0.5s;
-    z-index: 997;
-    font-size: 2rem;
-}
-
-#header.header-scrolled,
-  #header.header-fixed {
-    /* background: rgba(6, 12, 34, 0.98); */
-    height: 70px;
-    padding: 15px 0;
-    transition: all 0.5s;
-  }
-
-
 /* Horizontal Lists */
 
 .bars{
@@ -116,7 +94,7 @@ body::-webkit-scrollbar {
 
 /*Social Links*/
 .social-links li a i {
-    font-size: 1.8em;
+    font-size: 1.5em;
     padding: 0 .7em;
     line-height: 1.8em;
     border-radius: 50%;
@@ -150,7 +128,6 @@ body::-webkit-scrollbar {
     color: white;
     font-weight: 700;
     margin-bottom: 0.5rem;
-    margin-top: 14rem;
 }
 
 .social-icons li a i {
@@ -368,7 +345,7 @@ section:nth-child(2n + 1) {
     margin: 5px 0 0;
     color: #eb822d;
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1.15rem;
 }
 
 .experience-duration {
