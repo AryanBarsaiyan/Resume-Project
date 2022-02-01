@@ -20,28 +20,6 @@ body::-webkit-scrollbar {
     background-attachment: fixed;
     padding-top: 1.2rem;
 }
-
-#header {
-    height: 90px;
-    padding: 25px 0;
-    position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
-    transition: all 0.5s;
-    z-index: 997;
-    font-size: 2rem;
-}
-
-#header.header-scrolled,
-  #header.header-fixed {
-    /* background: rgba(6, 12, 34, 0.98); */
-    height: 70px;
-    padding: 15px 0;
-    transition: all 0.5s;
-  }
-
-
 /* Horizontal Lists */
 
 .bars{
@@ -150,7 +128,6 @@ body::-webkit-scrollbar {
     color: white;
     font-weight: 700;
     margin-bottom: 0.5rem;
-    margin-top: 14rem;
 }
 
 .social-icons li a i {
@@ -362,6 +339,8 @@ section:nth-child(2n + 1) {
 
 .experience-designation {
     font-size: 1.4rem;
+    width:80%;
+    float: right;
 }
 
 .experience-company-name {
@@ -369,6 +348,8 @@ section:nth-child(2n + 1) {
     color: #eb822d;
     font-weight: 400;
     font-size: 1.2rem;
+    width: 85%;
+    float: right;
 }
 
 .experience-duration {
@@ -376,6 +357,8 @@ section:nth-child(2n + 1) {
     font-weight: 100;
     color: grey;
     font-size: 1rem;
+    width: 60%;
+    float: right;
 }
 
 .experience-description {
