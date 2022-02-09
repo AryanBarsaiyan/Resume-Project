@@ -318,11 +318,15 @@ section:nth-child(2n + 1) {
 #timeline-divider {
     position: absolute;
     width: 0;
-    top: 10%;
-    left: 50%;
+    top: 9%;
+    left: 49.9%;
     border: 1px dashed #0096fa6b;
-    height: 66%;
+    height: 73%;
     color: #433E3F;
+}
+
+#education #timeline-divider{
+    height:65% !important;
 }
 
 #timeline-divider .timeline-traveller {
