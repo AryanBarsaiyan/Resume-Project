@@ -321,7 +321,7 @@ section:nth-child(2n + 1) {
     top: 9%;
     left: 49.9%;
     border: 1px dashed #0096fa6b;
-    height: 73%;
+    height: 74.5%;
     color: #433E3F;
 }
 
@@ -696,7 +696,7 @@ button:focus {
     }
 
     #timeline-divider {
-        top: 10%;
+        top: 8.5%;
         left: 2%;
     }
 
